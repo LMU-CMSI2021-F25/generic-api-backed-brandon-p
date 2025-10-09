@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "builds": [
+      { "src": "project2/package.json", "use": "@vercel/static-build", "config": { "distDir": "dist" } }
+    ],
+    "framework": "vite",
+    "buildCommand": "npm run build",
+    "outputDirectory": "dist",
+    "rootDirectory": "project2"
+  }  
