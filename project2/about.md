@@ -22,9 +22,9 @@ The Random Cat Generator is a simple React web app that fetches and displays ran
 - Zero console errors or warnings in development
 
 ### Deployment
-The app can be deployed using [Vercel](https://vercel.com), [Netlify](https://www.netlify.com), or [CodeSandbox](https://codesandbox.io).  
+The app can be deployed using [Netlify](https://www.netlify.com).  
 Once deployed, paste your live link here:  
- **Live App:** [https://randon-cat-generator.vercel.app/](https://randon-cat-generator.vercel.app/)
+**Live App:** [https://cat-api-react-app.netlify.app/](https://cat-api-react-app.netlify.app/)
 
 ### Author
 Created by **Brandon Perez**  
