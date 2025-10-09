@@ -1,3 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background: linear-gradient(135deg, #a18cd1, #fbc2eb);
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  text-align: center;
+  padding: 2rem;
+  background-color: rgba(47, 15, 15, 0.8);
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+}
+
+.title {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.cat-button {
+  background-color: #ff7eb3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.cat-button:hover {
+  transform: scale(1.05);
+  background-color: #ff5f9e;
+}
+
+.cat-image {
+  width: 100%;
+  border-radius: 12px;
+  margin-top: 1rem;
+  transition: transform 0.4s ease-in-out;
+}
+
+.cat-image:hover {
+  transform: rotate(2deg) scale(1.02);
+}
+
+.error {
+  color: #ff3e3e;
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  .app {
+    width: 90%;
+    padding: 1rem;
+  }
+
+  .cat-image {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+/*
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -40,3 +117,4 @@
 .read-the-docs {
   color: #888;
 }
+*/
